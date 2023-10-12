@@ -1,0 +1,47 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+
+.bg {
+  background-color: #161625;
+  min-height: 100vh;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.logo-container {
+  display: flex;
+}
+.logo {
+  height: 60px;
+  margin-right: 8px;
+}
+.logo-head {
+  color: #a3df9f;
+  font-size: 18px;
+  font-weight: 900;
+}
+.main-head{
+  color: #cbd5e1;
+  font-weight: 700;
+  font-size: 25px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 100vh;
+}
+.failure-text {
+  color: #ffffff;
+  font-family: 'bree serif';
+  font-weight: bold;
+  font-size: 25px;
+}
